@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CORSIT </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+    color: rgb(126, 188, 211);
+    background: rgb(9, 9, 9);
+   
+}
+
+/* Style the header */
+
+.header {
+  background-color: #23c1a9;
+  text-shadow: 2px 2px 5px rgb(220, 12, 12);
+  text-align: center;
+  padding:5px;
+  color: black;
+  font-size: 25px;
+  
+}
+
+.HASH {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  font-size: 35px;
+  justify-content: space-between;
+  
+    color: rgb(11, 11, 11);
+
+}
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  background-color:#aaa;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  height: 650px; /* Should be removed. Only for demonstration */
+}
+.column:hover {
+    color: rgb(234,234,234);
+    background: rgb(0, 171, 179);
+  }
+
+
+.row:hover {
+    color: rgb(234,234,234);
+    background: rgb(158, 8, 146);
+  }
+
+.glow
+{
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px red;
+    color: rgb(11, 11, 11);
+    text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+.para
+{
+  
+  font-size: x-large;
+    color: rgb(11, 11, 11);
+    
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+}
+.slink {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: rgb(4, 60, 230);
+    padding: 6px 12px;
+    margin: 15px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 >CORSIT EVENTS</h2>
+</div>
+
+<div class="row">
+  <div class="column" >
+  <h1 class="glow" style="text-align: center; ">
+    DECODE
+  </h1>
+  <img src="dcode.jpg"  class="center" >
+  <p class="para" style="text-align: center;"> Coding is an integral part of Robotics. Our coding event is designed to be both 
+    challenging 
+    and fun During this event, you will have the chance to compete with other talented programmers 
+    and solve challenging coding problems.
+     The winners will be determined based on accuracy, efficiency, and speed.</p>
+     <div class="HASH">
+      <span id="time-HASH" class="smalltext">Venue : Lab</span>
+      <span class="ios-circle">Time :10:30AM</span>
+      </div>
+      <a href="" class="slink">Learn More</a>
+  </div>
+  <div class="column">
+    
+  
+    <h1 class="glow" style="text-align: center; ">
+      Arduino Clash
+    </h1>
+    <img src="dcode.jpg"  class="center" >
+    <p class="para" style="text-align: center;"> Welcome to our Arduino event! This is a fantastic opportunity for electronics 
+      enthusiasts 
+      to demonstrate your skills and knowledge by performing simple tasks using Arduino. 
+      Participants will have to go through a written test. The selected teams have to complete a task based on Arduino.
+       The team conceding minimum time will be the winner.</p>
+       <div class="HASH">
+        <span id="time-HASH" class="smalltext">Venue : Lab</span>
+        <span class="ios-circle">Time :10:30AM</span>
+        </div>
+        <a href="" class="slink">Learn More</a>
+  
+  
+  </div>
+  
+</div>
+<div class="row">
+    <div class="column" >
+      <h1 class="glow" style="text-align: center; ">
+        LFR
+      </h1>
+      <img src="dcode.jpg"  class="center" >
+      <p class="para" style="text-align: center;"> Fumble and it’s all over!! Trace it and track the prize!!!
+         This event is for the code masters. Here’s your chance to prove your robot’s worth.
+         
+        A series of simple yet complex path are to be traced by the autonomous robot. 
+        Build the right circuit and test the precision of your programming. And as the saying goes, 
+        You don’t fall out of track and you shall emerge victorious.</p>
+        <div class="HASH">
+          <span id="time-HASH" class="smalltext">Venue : Lab</span>
+          <span class="ios-circle">Time :10:30AM</span>
+          </div>
+          <a href="" class="slink">Learn More</a>
+    
+    
+   
+    </div>
+    <div class="column"><h1 class="glow" style="text-align: center; ">
+      Bluetooth
+    </h1>
+    <img src="dcode.jpg"  class="center" >
+    <p class="para" style="text-align: center;">Gear up for rumbling engines, flamboyant wireless cars and adrenaline packed races 
+      at the all new Cross Roads. It's all about speed, control and accuracy, the bot that covers the track in the minimum time
+       collecting the maximum points will be the champion. Now put effort into competition and conquer the field. </p>
+       <div class="HASH">
+        <span id="time-HASH" class="smalltext">Venue : Lab</span>
+        <span class="ios-circle">Time :10:30AM</span>
+        </div>
+        <a href="" class="slink">Learn More</a>
+  
+  </div>
+    
+  </div>
+
+  <div class="row">
+    <div class="column" >
+      <h1 class="glow" style="text-align: center; ">
+        Spardha
+      </h1>
+      <img src="dcode.jpg"  class="center" >
+      <p class="para" style="text-align: center;"> It's a fun event. You can activate the child inside you. Feel energetic and
+         refreshed after participating. Go through the series of challenges under one roof , its just like a magician’s hat ,
+          which is full of fun and crazy enthusiastic sub events each one unique in its own league take out your inner child
+           and unleash your hunger for fun in this event . Now there is nothing to hold back go and participate NOW.</p>
+           <div class="HASH">
+            <span id="time-HASH" class="smalltext">Venue : Lab</span>
+            <span class="ios-circle">Time :10:30AM</span>
+            </div>
+          <a href="" class="slink">Learn More</a>
+    
+    
+   
+    </div>
+    <div class="column"><h1 class="glow" style="text-align: center; ">
+      Project Symposium
+    </h1>
+    <img src="dcode.jpg"  class="center" >
+    <p class="para" style="text-align: center;"> Are you ready to show your skills? A Platform to build, develop and 
+      showcase your ideas. The staple diet of all technical events is undoubtedly the presentation event, yet it has
+       something in it which makes it exciting . Sweat your mind and work to innovate the future.take out your imagination 
+       into the real world and experience the unique satisfaction of ur dream come true.</p>
+       <div class="HASH">
+        <span id="time-HASH" class="smalltext">Venue : Lab</span>
+        <span class="ios-circle">Time :10:30AM</span>
+        </div>
+        <a href="" class="slink">Learn More</a>
+  
+  </div>
+    
+  </div>
+  <div class="row">
+    <div class="column" >
+      <h1 class="glow" style="text-align: center; ">
+        Paper Presentation
+      </h1>
+      <img src="dcode.jpg"  class="center" >
+      <p class="para" style="text-align: center;">It’s time to show who’s the boss when it comes to the command over 
+        the subject. If you have an idea which has been taking shelter in your mind that would change lifestyles visibly
+        ,make inroads into the development of geeky technology or even make some known technology effective and efficient 
+        then we offer you the stage to showwho you are to the world.</p>
+        
+          <div class="HASH">
+            <span id="time-HASH" class="smalltext">Venue : Lab</span>
+            <span class="ios-circle">Time :10:30AM</span>
+            </div>
+      
+          <a href="" class="slink">Learn More</a>
+    
+    
+   
+    </div>
+    <div class="column" >
+      <h1 class="glow" style="text-align: center; ">
+      Group photo
+    </h1>
+    <img src="dcode.jpg"  class="center" >
+    <p class="para" style="text-align: center;"> It's a photo clicked in the end of the event. It depicts the successful
+       conduction of event. It'll have all members form Corsit who had taken part in Robocor. It shows the team work of the 
+       members and the efforts put in to make the event successful. Here we'll get to see the hardwork and the smartwork done 
+       by club members from the past few months in the form of a grand event.</p>
+       <div class="HASH">
+        <span id="time-HASH" class="smalltext">Venue : Lab</span>
+        <span class="ios-circle">Time :10:30AM</span>
+        </div>
+        
+        
+    
+        <a href="" class="slink">Learn More</a>
+  
+  </div>
+    
+  </div>
+
+</body>
+</html>
+
+
